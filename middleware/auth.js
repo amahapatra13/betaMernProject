@@ -4,7 +4,7 @@ const config = require('config');
 module.exports = function(req, res, next) {
 
     //token header
-    const token = jwt.header('x-auth-token');
+    const token = req.header('x-auth-token');
 
     //not token conditon
     if(!token) {
