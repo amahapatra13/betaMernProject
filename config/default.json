@@ -1,3 +1,4 @@
 {
-    "mongoose" : "mongodb+srv://mern:mern001@betamern.joyq3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "mongoose" : "mongodb+srv://mern:mern001@betamern.joyq3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwt" : "tokeniosecret"
 }
