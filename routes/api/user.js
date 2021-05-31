@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
 const { check,validationResult } = require('express-validator');
-const User = require('../../models/Users')
+const User = require('../../models/Users');
 const gravatar = require('gravatar');
 const bcrypt = require('bcryptjs');
-const config = require('config')
+const config = require('config');
 const jwt = require('jsonwebtoken');
 
 
