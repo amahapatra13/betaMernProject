@@ -8,7 +8,7 @@ module.exports = function(req, res, next) {
 
     //not token conditon
     if(!token) {
-        return res.status(401).json( { msg : 'No token, denied'}); 
+        return res.status(401).json({ msg : 'No token, denied'}); 
     }
 
     try {
